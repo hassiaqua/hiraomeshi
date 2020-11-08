@@ -1,0 +1,76 @@
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	filter: alpha(opacity=($opacity * 100));
+}
+
+@mixin clearfix() {
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+@mixin font($fontsize, $lineheight) {
+	$rem: $fontsize / 10;
+	$linS: $lineheight / $fontsize;
+	font-size: #{$rem}rem;
+	line-height: $linS;
+}
+
+@mixin center() {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin fit() {
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+}
+
+
+$sp: 767px;
+$pc: 768px;
+@mixin mq($media) {
+	@if $media == sp { 
+		@media screen and (max-width: #{$sp}) {
+			/* sp */
+			@content;
+		}
+	}
+	@elseif $media == pc { 
+		@media screen and (min-width: #{$pc}) {
+			/* pc */
+			@content;
+		}
+	}
+}
+
+
+// bootstrap
+// @mixin mq($media) {
+// 	@if $media == sm {
+// 		@media (min-width: 576px) {
+// 			@content;
+// 		}
+// 	}
+// 	@elseif $media == md {
+// 		@media (min-width: 768px) {
+// 			@content;
+// 		}
+// 	}
+// 	@elseif $media == lg {
+// 		@media (min-width: 992px) {
+// 			@content;
+// 		}
+// 	}
+// 	@elseif $media == xl {
+// 		@media (min-width: 1200px) {
+// 			@content;
+// 		}
+// 	}
+// }

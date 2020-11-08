@@ -1,0 +1,31 @@
+/*
+GROOWEB SCSS SMACSS BEM
+*/
+
+@import "base/var";
+
+/* Tools */
+@import "tools/mixins";
+@import "tools/reset";
+@import "tools/helpers";
+// @import "tools/_bootstrap_grid"; //bootstrap grid system
+// @import "tools/_bootstrap_display"; //bootstrap display system
+
+
+@import "base/base";
+
+/* Layout */
+@import "layout/all";
+
+
+/* Module */
+@import "module/xxxxx";
+
+/* State */
+// @import "state/xxxxx";
+
+
+/* Theme */
+// @import "theme/xxxxx";
+
+

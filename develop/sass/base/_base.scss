@@ -1,0 +1,44 @@
+/* base */
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: $hiragino;
+	font-size: 1.4rem;
+	// font-feature-settings: "palt";
+	// -webkit-font-smoothing: antialiased;
+	// -moz-osx-font-smoothing: grayscale;
+	color: $black;
+}
+
+a {
+	color: inherit;
+	&:hover{
+
+	}
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+input, textarea, select, button{
+	font-family: inherit;
+	appearance: none;
+	outline: none;
+}
+
+button{
+	cursor: pointer;
+	font-size: inherit;
+}
+
+/* for development */
+pre {
+	padding: 15px;
+	background: #eee;
+	font-size: 1.2rem;
+	line-height: 1.2;
+}
