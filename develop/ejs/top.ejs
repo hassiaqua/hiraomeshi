@@ -1,0 +1,123 @@
+<%- include('templates/_header',{title:''}) %>
+<main class="l-main">
+<!-- CONTENTS -->
+
+<div class="l-split-content">
+	<div class="l-split-content__slide">
+
+		<div class="slider-mv">
+			<div class="slider-bar"><div class="slider-bar__animation"></div></div>
+			<div class="slider-mv__items">
+<% for (var i = 0; i < 3; i++) { //ループ処理 12件 %>
+				<article class="slider-mv__item">
+					<div class="slider-mv__inner">
+						<a href="#" class="slider-mv__image">
+							<img src="img/_dummy_1.jpg" alt="">
+						</a>
+						<div class="slider-mv__content">
+							<a href="#" class="slider-mv__title">平尾村フロータンの魅力</a>
+							<div class="slider-mv__info post-info">
+								<div class="post-info__wrap01">
+									<a href="#" class="post-info__place place">flotan</a>
+									<a href="#" class="post-info__area area">平尾エリア</a>
+								</div>
+								<div class="post-info__wrap02">
+									<ul class="post-info__tags tags">
+										<li class="tags__item">
+											<a href="#" class="tag">平尾村</a>
+										</li>
+										<li class="tags__item">
+											<a href="#" class="tag">平尾村</a>
+										</li>
+									</ul>
+									<span class="post-info__date date">2020/07/21</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+<% } %>
+			</div>
+		</div>
+
+	</div>
+	<div class="l-split-content__content">
+
+		<div class="l-lg-wrapper">
+			<div class="home-intro">
+				<div class="home-intro__wrap">
+					<h2 class="home-intro__head">
+						<span class="home-intro__head__main">ひらおめし</span>
+						<span class="home-intro__head__sub">とは</span>
+					</h2>
+					<div class="home-intro__copy">
+						<span>平尾民による</span>
+						<span>平尾あるきのための</span>
+						<span>ごはん案内サイト</span>
+					</div>
+				</div>
+				<div class="home-intro__text">
+					<p>福岡市中央区平尾。薬院の南に位置する小さな町です。</p>
+					<p>市内で飲食店で栄えている場所といえば、天神や薬院・博多あたりが有名ですが、<br>実はここ平尾もたくさんの魅力的な飲食店が軒を連ねています。<br>また、白金・高砂・高宮といった平尾から少し歩いたところにも穴場がたくさんあるんですよ。</p>
+					<p>ひらおめしは、そんな平尾・平尾周辺エリアにあるとっておきのお店を紹介いたします。<br>平尾に住んでいる方もそうでない方にも、平尾を美味しく楽しんでいただくためのガイドブックになれたら幸いです。</p>
+					<p>天神や薬院の喧騒から少し離れたこの町で、ゆっくり過ごしてみてはいかがでしょうか。</p>
+				</div>
+			</div>
+
+			<div class="home-articles">
+				<h2 class="heading-1">エリアで探す</h2>
+				<div class="layout01">
+					<a href="#" class="layout01__item">
+						<div class="layout01__inner">
+							<p class="layout01__head">平尾駅</p>
+							<img src="img/_dummy_2.jpg" alt="" class="layout01__image">
+						</div>
+					</a>
+					<a href="#" class="layout01__item">
+						<div class="layout01__inner">
+							<p class="layout01__head">高砂</p>
+							<img src="img/_dummy_2.jpg" alt="" class="layout01__image">
+						</div>
+					</a>
+					<a href="#" class="layout01__item">
+						<div class="layout01__inner">
+							<p class="layout01__head">白金</p>
+							<img src="img/_dummy_2.jpg" alt="" class="layout01__image">
+						</div>
+					</a>
+					<a href="#" class="layout01__item">
+						<div class="layout01__inner">
+							<p class="layout01__head">高宮駅</p>
+							<img src="img/_dummy_2.jpg" alt="" class="layout01__image">
+						</div>
+					</a>
+					<a href="#" class="layout01__item">
+						<div class="layout01__inner">
+							<p class="layout01__head">平和</p>
+							<img src="img/_dummy_2.jpg" alt="" class="layout01__image">
+						</div>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+
+		
+
+
+
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- //CONTENTS -->
+</main>
+<%- include('templates/_footer') %>

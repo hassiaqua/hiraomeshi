@@ -19,7 +19,57 @@ GROOWEB SCSS SMACSS BEM
 
 
 /* Module */
-@import "module/xxxxx";
+
+//LIBRARY
+@import "module/slick";
+@import "module/slick-theme";
+
+
+//COMMON
+@import "module/header";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+
+
+//HOME
+@import "module/home-intro";
+@import "module/home-articles";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+
+
+
+//PARTS
+@import "module/slider-mv";
+@import "module/slider-bar";
+@import "module/slider-indicator";
+@import "module/slilder-control";
+@import "module/post-info";
+@import "module/date";
+@import "module/tags";
+@import "module/tag";
+@import "module/area";
+
+
+@import "module/heading";
+@import "module/place";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+
+@import "module/layout01";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+// @import "module/xxxxx";
+
+
+
 
 /* State */
 // @import "state/xxxxx";

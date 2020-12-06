@@ -1,0 +1,46 @@
+.slilder-control{
+	position: absolute;
+	bottom: 9px;
+	right: 10px;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	height: 24px;
+	@include mq(pc){
+		bottom: inherit;
+		top: 14px;
+		right: 12px;
+	}
+	&__button{
+		appearance: none;
+		border: none;
+		outline: none;
+		background: #FFFFFF;
+		border: none;
+		cursor: pointer;
+
+		width: 24px;
+		height: 24px;
+		white-space: nowrap;
+		text-indent: 100%;
+		overflow: hidden;
+		display: block;
+		@include transition;
+		padding: 0;
+		&:hover{
+			@include mq(pc){
+				opacity: .5;
+			}
+		}
+		&--prev{
+			margin-right: 19px;
+			background: url(../img/icon_arrow_slider_left.svg) no-repeat center center / contain;
+			@include mq(pc){
+				margin-right: 5px;
+			}
+		}
+		&--next{
+			background: url(../img/icon_arrow_slider_right.svg) no-repeat center center / contain;
+		}
+	}
+}

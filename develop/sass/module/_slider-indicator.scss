@@ -1,0 +1,16 @@
+.slider-indicator{
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	color: $black;
+	// font-family: $roboto;
+	font-weight: bold;
+	&__current{
+		font-size: 3.2rem;
+	}
+	&__total{
+		font-size: 1.6rem;
+		line-height: 1.5;
+		letter-spacing: 0.25em;
+	}
+}

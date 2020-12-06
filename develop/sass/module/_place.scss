@@ -1,0 +1,18 @@
+.place{
+	display: block;
+	position: relative;
+	margin-bottom: 5px;
+	padding-left: 17px;
+	color: $white;
+	font-size: 1.3rem;
+	line-height: 1.4;
+	&::before{
+		content: '';
+		position: absolute;
+		top: 2px;
+		left: 0;
+		width: 12px;
+		height: 12px;
+		background: url(../img/icon_shop_white.svg) no-repeat center center / contain;
+	}
+}

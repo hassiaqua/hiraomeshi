@@ -1,0 +1,8 @@
+.tags{
+	display: flex;
+	flex-wrap: wrap;
+	&__item{
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+}

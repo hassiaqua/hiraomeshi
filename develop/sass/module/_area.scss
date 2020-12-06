@@ -1,0 +1,18 @@
+.area{
+	position: relative;
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+	line-height: 1.4;
+	color: #ffffff;
+	padding-left: 16px;
+	&::before{
+		content: '';
+		position: absolute;
+		top: 2px;
+		left: 0;
+		width: 14px;
+		height: 14px;
+		background: url(../img/icon_pin_white.svg) no-repeat center center / contain;
+	}
+}

@@ -1,0 +1,23 @@
+.slider-bar{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	z-index: 100;
+	background: #DDDDDD;
+	.slick-current & {
+		height: 2px;
+		@include mq(pc) {
+			height: 4px;
+		}
+	}
+	&__animation{
+		background: $black;
+		height: 100%;
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}

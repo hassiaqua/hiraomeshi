@@ -1,0 +1,15 @@
+.header{
+	&__logo{
+		a{
+			display: block;
+			padding: 20px;
+			font-size: 3rem;
+			font-weight: bold;
+			letter-spacing: .14em;
+			writing-mode: vertical-rl;
+			@include mq(pc){
+				// writing-mode: horizontal-tb;
+			}
+		}
+	}
+}

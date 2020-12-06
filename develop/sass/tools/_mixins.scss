@@ -32,6 +32,10 @@
 	font-family: 'object-fit: cover;';
 }
 
+@mixin transition() {
+	transition: .3s;
+}
+
 
 $sp: 767px;
 $pc: 768px;
